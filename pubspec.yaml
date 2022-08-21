@@ -39,6 +39,9 @@ dependencies:
   animated_text_kit: ^4.2.2
   google_fonts: ^3.0.1
   get_storage: ^2.0.3
+  gsheets: ^0.4.2
+  mobile_scanner: ^2.0.0
+#  qrscan: ^0.3.3
 
 dev_dependencies:
   flutter_test:

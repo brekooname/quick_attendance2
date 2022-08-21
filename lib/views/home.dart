@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:quick_attendance2/views/view_qr_info.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -55,7 +57,9 @@ class Home extends StatelessWidget {
               const Divider(),
               InkWell(
                 splashColor: Colors.green,
-                onTap: (){},
+                onTap: (){
+                  Get.to(ViewQrInfo());
+                },
                 child: buildListTile(
                     title: 'Settings', leading: Icons.settings_outlined),
               ),
